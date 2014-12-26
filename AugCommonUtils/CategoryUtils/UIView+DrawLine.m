@@ -15,8 +15,8 @@
 {
     CALayer *bottomBorder = [CALayer layer];
     bottomBorder.borderColor = [self defaultColor].CGColor;
-    bottomBorder.borderWidth = kOnePixel;
-    bottomBorder.frame = CGRectMake(orign.x, orign.y, aWidth, kOnePixel);
+    bottomBorder.borderWidth = 0.5;
+    bottomBorder.frame = CGRectMake(orign.x, orign.y, aWidth, 0.5);
     
     [self.layer addSublayer:bottomBorder];
 }

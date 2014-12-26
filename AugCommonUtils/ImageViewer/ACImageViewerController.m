@@ -7,6 +7,7 @@
 
 #import "ACImageViewerController.h"
 #import "ACZoomScrollView.h"
+#import "ACDefinitions.h"
 
 @interface ACImageViewerController () <UIAlertViewDelegate>
 

@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "SynthesizeSingleton.h"
 
 @interface CookieCacheManager : NSObject
 
